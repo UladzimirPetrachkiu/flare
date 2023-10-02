@@ -98,7 +98,7 @@ if __name__ == "__main__":
     logging.getLogger('selenium.webdriver.remote.remote_connection').setLevel(logging.WARNING)
     logging.getLogger('undetected_chromedriver').setLevel(logging.WARNING)
 
-    logging.info(FlareSolverr ' + str(utils.get_flaresolverr_version())
+    logging.info('FlareSolverr ' + str(utils.get_flaresolverr_version()))
     logging.debug('Debug log enabled')
 
     # test browser installation
